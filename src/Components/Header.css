@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    font-size: 2rem;
+    min-height: 10vh;
+    font-weight: 600;
+    box-shadow: 1px 2px 4px #888888;
+}
+
+.brand-name{
+    margin: 16px;
+}
+
+#search-bar{
+    width:90%;
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #4d4d4d;
+    background-color:initial;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+}
+
+
+input[type=text]:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    outline: 1px solid #4d4d4d;
+}
+
+::placeholder{
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media (max-width:660px){
+    nav{
+        font-size: 1.5rem;
+    }
+}
